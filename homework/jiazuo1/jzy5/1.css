@@ -1,0 +1,32 @@
+.s{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.a{
+  text-align: center;
+}
+
+.c{
+  display: flex;
+  justify-content: center;
+}
+
+.z{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+#btnJoin{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border: 0.1rem solid #ff0000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#btnJoin:hover{
+  background-color: rgba(255, 0, 0, 0.3);
+}

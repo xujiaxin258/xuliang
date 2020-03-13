@@ -1,0 +1,91 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #3b81dd;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.5rem;
+}
+
+.yjj {
+  margin-right: 0.5rem;
+  font-size: 2.8rem;
+}
+
+.sp {
+  display: flex;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+footer>div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ededed;
+  padding: 0.5rem 0px;
+  border-top: 1px solid#dcdcdc;
+}
+
+.active-icon {
+  color: #4162d1;
+}
+
+.tc {
+  text-align: center;
+}
+
+main {
+  margin-top: 2.8rem;
+  margin-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.name {
+  padding: 0.3rem;
+  background-color: #ededed;
+  color: #b2b2b2;
+}
+
+.pdd {
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+
+/* 通讯录行 */
+.line {
+  display: flex;
+  font-size: 1rem;
+}
+
+.line .iconfont {
+  font-size: 1.5rem;
+}
+
+.line>div:first-child {
+  padding: 0.5rem;
+}
+
+.line>div:last-child {
+  padding: 1rem;
+  line-height: 0.6rem;
+  font-size: 0.5rem;
+  border-bottom: 1px solid #dcdcdc;
+  flex: 1;
+}
+
+
+.ky {
+  display: flex;
+  justify-content: flex-end;
+}

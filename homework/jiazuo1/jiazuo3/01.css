@@ -1,0 +1,71 @@
+#ani-div{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  color: aliceblue;
+}
+
+#sp01,
+#sp02,
+#sp03,
+#sp04,
+#sp05,
+#sp06{
+  display: inline-block;
+  border: 1px solid tomato;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+@keyframes myani01{
+  0%{
+    background-color: #ff0000;
+  }
+  50%{
+    background-color: #000000;
+  }
+}
+
+.myani01{
+  animation: myani01 2s;
+}
+
+@keyframes myani02{
+  0%{
+    background-color: #ff00ff;
+  }
+  50%{
+    background-color: #00ff00;
+  }
+}
+
+.myani02{
+  animation: myani02 2s;
+}
+
+@keyframes myani03{
+  0%{
+    background-color: #ffff00;
+  }
+  50%{
+    background-color: #000000;
+  }
+}
+
+.myani03{
+  animation: myani03 2s;
+}
+
+@keyframes myani04{
+  0%{
+    background-color: blue;
+  }
+  20%{
+    background-color: #ff0000;
+  }
+}
+
+.myani04{
+  animation: myani04 3s;
+}

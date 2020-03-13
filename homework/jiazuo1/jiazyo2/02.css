@@ -1,0 +1,30 @@
+
+.fs02 {
+  border: 2px solid blue;
+  color: yellow;
+}
+
+.fs01 {
+  text-align: right;
+}
+
+.fa01 {
+  background-color: brown;
+}
+
+.fs03 {
+  color: yellow;
+}
+
+.fa02 {
+  background-color: pink;
+}
+
+.fa01 span {
+  border: 2px solid #ff0000;
+  color: silver;
+}
+
+.fa01 div {
+  color: silver;
+}
